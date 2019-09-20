@@ -1,0 +1,24 @@
+app-cart{
+    width: 60%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #f4f4f4;
+    align-items: center;
+    justify-content:flex-end;
+    margin: 0 auto;
+    height: 15%;
+    .cartIcon{
+        margin-right: 80px;
+        img{
+            width: 46px;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

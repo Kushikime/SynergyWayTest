@@ -1,0 +1,15 @@
+<div class="cartWindow">
+    <ul class="productsList">
+    
+        <li *ngFor="let product of this.cartList">
+            <span class="title">{{product.name}}</span>
+            <div>
+                <span class="price">{{calcPrice(product)}}$</span>
+                <button class="removeFromCart" (click)="removeProduct(product)" value="{{product.id}}">Remove</button>
+            </div>
+        </li>
+    </ul>
+    <div class="bottomBlock">
+        <span class="summary">Total price: {{totalPrice()}}$</span>
+    </div>
+</div>
