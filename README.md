@@ -5,19 +5,19 @@
 
 Open cmd
 
--installing dependecy
-  `npm install -g @angular/cli`
-  -y
+<br/>-installing dependecy
+  <br/>`npm install -g @angular/cli`
+  <br/>-y
 
--generating a new project
-  `ng new testProject`
-  Would ... routing?(-y)
-  choose SCSS from the list
+<br/>-generating a new project
+  <br/>`ng new testProject`
+  <br/>Would ... routing?(-y)
+  <br/>choose SCSS from the list
 
-now replace the src folder in the generated project with mine
+<br/>now replace the src folder in the generated project with mine
 
-in cmd:
-  cd testProject
-  ng server
+<br/>in cmd:
+  <br/>cd testProject
+  <br/>ng server
 
-after compiling you should have access to the app from localhost:{{YOUR_PORT}}
+<br/>after compiling you should have access to the app from localhost:{{YOUR_PORT}}
